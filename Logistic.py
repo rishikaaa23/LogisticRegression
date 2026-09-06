@@ -8,7 +8,7 @@ from sklearn.metrics import accuracy_score
 
 st.title("Loan Approval Prediction")
 
-df = pd.read_csv("Loan_Dataset,csv")
+df = pd.read_csv("Loan_Dataset.csv")
 
 st.subheader("Dataset")
 st.dataframe(df)
