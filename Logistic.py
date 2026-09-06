@@ -31,7 +31,7 @@ model.fit(X_train,y_train)
 prediction = model.predict(X_test)
 
 accuracy= accuracy_score(y_test, prediction)
-st.sucess(f"Accuracy:{accuracy*100:.2f}%")
+st.success(f"Accuracy:{accuracy*100:.2f}%")
 
 #-------------------------------------
 #User input
